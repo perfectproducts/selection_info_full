@@ -1,0 +1,26 @@
+[package]
+version = "1.0.0"
+
+title = "ipolog selection information"
+
+description="ipolog companion extension which displays ipolog metadata."
+
+readme  = "docs/README.md"
+
+repository = "https://github.com/mtw75/ipo_selectionview"
+
+category = "manufacturing"
+
+keywords = ["kit", "ipolog"]
+
+preview_image = "data/preview.png"
+
+icon = "data/ext_logo.png"
+
+[dependencies]
+"omni.kit.uiapp" = {}
+"omni.ui" = {}
+"omni.usd" = {}
+
+[[python.module]]
+name = "ai.synctwin.selection_info_full"
